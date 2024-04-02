@@ -1,0 +1,9 @@
+@import './base.css';
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .star{
+        @apply bg-slate-100 p-1 inline-flex items-center justify-center rounded-md text-lg hover:bg-orange-600 text-darkText hover:text-white cursor-pointer duration-200 active:bg-black active:text-white w-7 ;
+    }
+}
